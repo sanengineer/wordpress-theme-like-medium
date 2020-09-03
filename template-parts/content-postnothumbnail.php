@@ -32,7 +32,7 @@
 			<div class="avt-img">
 				<div class="outer-circle"></div>
 					<?php	echo do_shortcode('[avatar]'); ?>
-					<!-- <img class="onweb-img" src="http://imac.local/blog-wp/wp-content/uploads/2020/04/icon-profil-service-web@4x.png" alt="author-img-anonymous"> -->
+					<!-- <img class="onweb-img" src="/blog-wp/wp-content/uploads/2020/04/icon-profil-service-web@4x.png" alt="author-img-anonymous"> -->
 					<?php /* echo get_avatar( get_the_author_meta( 'ID' ), 48 ); */ ?>
 			</div>
 
