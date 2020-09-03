@@ -45,9 +45,9 @@ get_header(); ?>
 						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 								<span style="font-weight:100;" aria-hidden="true">&times;</span>
 						</button>				
-						<div class="link-covid">
-							<a class="btn btn-warning" href="http://covid19.go.id" target="_blank" rel="noopener noreffer nofolow">visit covid19.go.id</a>
-							<a class="btn btn-outline-warning" href="#">visit this web</a>
+						<div class="link-web">
+							<a class="btn btn-warning link-external-web" href="#" target="_blank" rel="noopener noreffer nofolow">visit external link</a>
+							<a class="btn btn-outline-warning link-internal-web" href="#">visit this web</a>
 						</div>	
 					</div>
 

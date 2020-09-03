@@ -1347,28 +1347,28 @@ section.xtreme-hero {
   color: #856404;
 }
 
-.promo-content .link-covid a {
+.promo-content .link-web a {
   margin-right: 10px;
 }
 
-.promo-content .link-covid .btn-warning {
+.promo-content .link-web .btn-warning {
   color: #836200;
   background-color: #ffc107;
   border-color: #ffc107;
 }
 
-.promo-content .link-covid .btn-warning:hover {
+.promo-content .link-web .btn-warning:hover {
   color: #ffecb2;
   background-color: #e0a800;
   border-color: #d39e00;
 }
 
-.promo-content .link-covid .btn-outline-warning {
+.promo-content .link-web .btn-outline-warning {
   color: #e0a800;
   border-color: #e0a800;
 }
 
-.promo-content .link-covid .btn-outline-warning:hover {
+.promo-content .link-web .btn-outline-warning:hover {
   color: #ffffff;
   background-color: #ffc107;
   border-color: #ffc107;
