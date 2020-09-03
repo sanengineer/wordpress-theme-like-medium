@@ -25,7 +25,7 @@
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 	<header id="masthead" class="site-header navbar-static-top <?php echo san_wp_bootstrap_bg_class(); ?>" role="banner">
         <div class="container">
-               <nav id="snnav" class="navbar navbar-expand-xl snupperenav" >
+               <nav id="snnav" class="san-top-nav navbar navbar-expand-xl snupperenav" >
                     <div class="navbar-brand">
                         <?php if ( get_theme_mod( 'san_wp_bootstrap_logo' ) ): ?>
                             <a href="<?php echo esc_url( home_url( '/' )); ?>">
