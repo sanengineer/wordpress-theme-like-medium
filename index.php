@@ -18,19 +18,23 @@ get_header(); ?>
 
 
 <div class="sn-home-content">
-  <div class="justify-content-center">
-
-	<section id="heroBig" class="sn-hero-info-bg hero-bg-image">
-		<!-- <div class="sn-hero-content"> -->
-			<div class="sn-hero-logo">
-				<img src="<?php echo esc_url(get_theme_mod( 'san_wp_bootstrap_logo' )); ?>" alt="logo-blog">
-			</div>
-			<!-- <div class="sn-hero-descript"> -->
-				<h1 class="sn-hero-title-blog"><?php printf (get_bloginfo( 'name' )); ?></h1>
-				<p><?php printf (get_bloginfo( 'description' )); ?></p>
-			<!-- </div> -->
-		<!-- </div> -->
-	</section>
+  <div class="sn-home-content-wrapper">
+	<div class="container">
+		<div class="row justify-content-center">
+			<section id="heroBig" class="sn-hero-info-bg hero-bg-image">
+				<!-- <div class="sn-hero-content"> -->
+					<div class="sn-hero-logo">
+						<img src="<?php echo esc_url(get_theme_mod( 'san_wp_bootstrap_logo' )); ?>" alt="logo-blog">
+					</div>
+					<!-- <div class="sn-hero-descript"> -->
+						<h1 class="sn-hero-title-blog"><?php printf (get_bloginfo( 'name' )); ?></h1>
+						<p><?php printf (get_bloginfo( 'description' )); ?></p>
+					<!-- </div> -->
+				<!-- </div> -->
+			</section>
+		</div>
+	</div>
+	
 
 	<div class="container">
 		<div class="col">
