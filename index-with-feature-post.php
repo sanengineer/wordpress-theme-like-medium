@@ -217,15 +217,15 @@ get_header(); ?>
 		
 			<div class="promo-content alert alert-warning alert-dismissible fade show" role="alert">
 				<div class="promo-text">
-					<h2>Stay Alert</h2>
-					<p>Corona virus or known as covid-19 is a global pandemic. We fight against Covid-19, work from home, study from home and pray at home. For official Indonesian updates on pandemic, visit covid19.go.id or you can monitor via this site.</p>
+					<h2>Lorem Ipsum Dolor Sit</h2>
+					<p>Aliquet risus feugiat in ante metus dictum. Nunc faucibus a pellentesque sit amet porttitor. Risus sed vulputate odio ut enim. Amet porttitor eget dolor morbi. Bibendum arcu vitae elementum curabitur vitae nunc.</p>
 				</div>
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 						<span style="font-weight:100;" aria-hidden="true">&times;</span>
 				</button>				
 				<div class="link-covid">
 					<a class="btn btn-warning" href="http://covid19.go.id" target="_blank" rel="noopener noreffer nofolow">visit covid19.go.id</a>
-					<a class="btn btn-outline-warning" href="http://imac.local/blog-wp/index.php/pantau-covid19-di-indonesia">visit this web</a>
+					<a class="btn btn-outline-warning" href="#">visit this web</a>
 				</div>	
 			</div>
 
