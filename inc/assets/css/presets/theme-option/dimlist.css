@@ -400,7 +400,7 @@ button.navbar-toggler.collapsed span, button.navbar-toggler span {
   backdrop-filter: saturate(180%) blur(20px);
   background-color: rgba(13, 36, 57, 0.7);
   -webkit-transform: translateY(0rem);
-          transform: translateY(0rem);
+  transform: translateY(0rem);
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
@@ -920,7 +920,7 @@ a img.aligncenter {
 
 .pn {
   -ms-flex-preferred-size: 36.333333%;
-      flex-basis: 36.333333%;
+  flex-basis: 36.333333%;
 }
 
 .n {
@@ -1407,7 +1407,7 @@ section.xtreme-hero {
 .avt-img img.onweb-img {
   width: 36px;
   -webkit-animation: igLive 1.25s ease infinite;
-          animation: igLive 1.25s ease infinite;
+  animation: igLive 1.25s ease infinite;
   display: block;
 }
 
@@ -1415,71 +1415,71 @@ section.xtreme-hero {
   border-radius: 100px;
   background: #2f475e;
   -webkit-box-shadow: 0 0 8px 2px #5784b0b3;
-          box-shadow: 0 0 8px 2px #5784b0b3;
+  box-shadow: 0 0 8px 2px #5784b0b3;
   height: 36px;
   width: 36px;
   -webkit-animation: igLiveOut 1.25s .5s ease infinite;
-          animation: igLiveOut 1.25s .5s ease infinite;
+  animation: igLiveOut 1.25s .5s ease infinite;
   position: absolute;
 }
 
 @-webkit-keyframes igLive {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes igLive {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @-webkit-keyframes igLiveOut {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes igLiveOut {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
