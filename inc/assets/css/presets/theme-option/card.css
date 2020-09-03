@@ -375,6 +375,10 @@ button.navbar-toggler span {
   background-color: #000;
 }
 
+.navbar-nav li.menu-item:not(:last-child) {
+  margin-right: 45px;
+}
+
 .san-top-nav img {
   height: 40px;
 }
