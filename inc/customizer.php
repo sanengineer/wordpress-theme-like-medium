@@ -42,8 +42,11 @@ function san_wp_bootstrap_customize_register( $wp_customize ) {
         'choices' => array(
             'default' => 'Default',
             'card' => 'Card',
+            'card-dim' => 'Card Dim',
+            'card-flex' => 'Card Flex',
+            'card-flex-dim' => 'Card Flex Dim',
             'dimlist' => 'Dimlist',
-            'card-flex' => 'Card Flex'
+            'list-light' => 'List Light'
         )
     ) ) );
 
