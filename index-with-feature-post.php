@@ -1,6 +1,8 @@
 <?php
 /**
  * The main template file
+ * 
+ * List View With Sidebar and Feature Post (Manual Input)
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -11,7 +13,6 @@
  *
  * @package SAN_WP_Bootstrap
  * 
- * With Feature Post Manual Input
  */
 
 get_header(); ?>
