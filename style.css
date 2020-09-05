@@ -1011,10 +1011,10 @@ section.xtreme-hero {
 /*--------------------------------------------------------------
   ## Posts and pages
   --------------------------------------------------------------*/
-.home #primary .post-lst article .entry-content {
+/* .home #primary .post-lst article .entry-content {
   padding-left: 20px;
   width: 520px;
-}
+} */
 
 .single .site-main article .entry-content p {
   color: #000;
@@ -1815,13 +1815,13 @@ footer#colophon a {
   }
 
   .home #primary .post-lst article .entry-content {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     width: 258px;
   }
 
-  .home #primary article .post-thumbnail {
+  /*.home #primary article .post-thumbnail {
     padding-top: 4px;
-  }
+  }*/
 
   .home .site-main .entry-content p {
     position: relative;
@@ -1847,14 +1847,14 @@ footer#colophon a {
 
 @media only screen and (max-width: 376px) {
   .home #primary .post-lst article .entry-content {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     width: 200px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .home #primary .post-lst article .entry-content {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     width: 160px;
   }
 }

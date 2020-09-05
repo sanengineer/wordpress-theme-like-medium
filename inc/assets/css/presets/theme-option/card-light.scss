@@ -69,9 +69,9 @@ article,
   background-color: transparent;
 }
 
-article {
-  margin: auto auto 20px auto !important;
-}
+// article {
+//   margin: auto auto 20px auto !important;
+// }
 
 audio,
 canvas,
@@ -999,6 +999,42 @@ form.search-form {
   color: #757575;
 }
 
+.sn-post-feed {
+  position: relative;
+  display: block;
+  margin: 0 -20px;
+  padding: 50px 0 0;
+
+  .post-lst {
+    list-style: none;
+    /*width: 800px;*/
+  }
+}
+
+.home .post-lst .post {
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bebebe;
+  overflow: hidden;
+}
+
+
+.home .post-lst .post .entry-content {
+  padding: 20px;
+  width: auto;
+}
+
+.home .post-lst .post .post-thumbnail img {
+  height: auto;
+  max-width: 100% !important;
+  width: 100%;
+  background: #c5d2d9 no-repeat 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 /*---------------------------------------------------------------
     ### Xtreme Hero
     --------------------------------------------------------------*/
@@ -1353,7 +1389,7 @@ section.xtreme-hero {
   /* position: absolute; */
   width: 100%;
   max-width: 100%;
-  left: -50px;
+  /*left: -50px;*/
 }
 
 .promo-content.alert {
@@ -1866,7 +1902,7 @@ footer#colophon a {
   .home .post-lst article {
     border: 1px solid #e8e8e8;
     border-radius: 6px;
-    padding: 10px;
+    /*padding: 10px;*/
   }
 
   .home #primary .post-lst article .post-thumbnail {
@@ -1886,7 +1922,7 @@ footer#colophon a {
   }
 
   .home #primary .post-lst article .entry-content {
-    padding-left: 0px;
+    /*padding-left: 0px;*/
     width: 100%;
   }
 
@@ -1910,7 +1946,7 @@ footer#colophon a {
     --------------------------------------------------------------*/
 @media only screen and (max-width: 376px) {
   .home #primary .post-lst article .entry-content {
-    padding-left: 0px;
+    /*padding-left: 0px;*/
     width: 100%;
   }
 }
@@ -1920,14 +1956,14 @@ footer#colophon a {
     --------------------------------------------------------------*/
 @media only screen and (max-width: 320px) {
   .home #primary .post-lst article .entry-content {
-    padding-left: 0px;
+    /*padding-left: 0px;*/
     width: 100%;
   }
 }
 
 
 // .promo-content {
-  
+
 // }
 
 /*--------------------------------------------------------------
