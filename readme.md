@@ -22,3 +22,19 @@ Wordpress custom theme like Medium create with Bootstrap the world’s most popu
   - Fullwidth Card Style Latest Post With Banner
   - Feature Post With Side Bar
 
+### Content/Article Tags (content.php) Page Or Post :
+  - Default
+  - Archive
+  - Card
+  - Flex
+  - Full Width Page
+  - List
+  - None
+  - No Title (h1 on page or post)
+  - Page (Default)
+  - Post (Default)
+  - Post Without Thumbnail
+  - Post Without Thumbnail With Col 8
+  - Search Page
+  - Sidebar Full Width
+
