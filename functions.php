@@ -530,7 +530,7 @@ function san_category_custom() {
  */
 function snscrollstick() {
 
-	wp_enqueue_script( 'snscript', get_template_directory_uri() . '/inc/assets/js/kasShdawuEYD.js');
+	wp_enqueue_script( 'snscript', get_template_directory_uri() . '/inc/assets/js/footer-sticky.js');
 	  
   }
   
