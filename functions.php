@@ -571,7 +571,7 @@ function san_category_customnolink() {
  */
 function snsupersticky() {
 
-	wp_enqueue_script( 'snnavscript', get_template_directory_uri() . '/inc/assets/js/jsLkfdjnszJDL.js');
+	wp_enqueue_script( 'snnavscript', get_template_directory_uri() . '/inc/assets/js/scroll-add-class-nav.js');
 	  
   }
   
