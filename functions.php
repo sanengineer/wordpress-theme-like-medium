@@ -199,7 +199,7 @@ function san_wp_bootstrap_scripts() {
     if(get_theme_mod( 'preset_color_scheme_setting' ) && get_theme_mod( 'preset_color_scheme_setting' ) !== 'default') {
         wp_enqueue_style( 'san-wp-bootstrap-'.get_theme_mod( 'preset_color_scheme_setting' ), get_template_directory_uri() . '/inc/assets/css/presets/color-scheme/'.get_theme_mod( 'preset_color_scheme_setting' ).'.css', false, '' );
     }else {
-        wp_enqueue_style( 'san-wp-bootstrap-default', get_template_directory_uri() . '/inc/assets/css/presets/color-scheme/blue.css', false, '' );
+        wp_enqueue_style( 'san-wp-bootstrap-default', get_template_directory_uri() . '/inc/assets/css/presets/color-scheme/body.css', false, '' );
     }
 
 	wp_enqueue_script('jquery');
