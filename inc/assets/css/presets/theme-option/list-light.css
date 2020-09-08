@@ -67,7 +67,8 @@ summary {
   display: block;
 }
 
-article, .widget {
+article,
+.widget {
   background-color: transparent;
 }
 
@@ -226,7 +227,12 @@ th {
 /*--------------------------------------------------------------
   # Typography
   --------------------------------------------------------------*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both;
   color: #678db0;
   font-weight: 600;
@@ -379,11 +385,13 @@ header#masthead {
   color: #28669e;
 }
 
-.navbar-brand > a:visited, .navbar-brand > a:hover {
+.navbar-brand > a:visited,
+.navbar-brand > a:hover {
   text-decoration: none;
 }
 
-button.navbar-toggler.collapsed span, button.navbar-toggler span {
+button.navbar-toggler.collapsed span,
+button.navbar-toggler span {
   background-color: #295985;
 }
 
@@ -1261,7 +1269,9 @@ section.xtreme-hero {
 /*.post.hentry {
 	margin-bottom: 20px;
 }*/
-.posted-on, .byline, .comments-link {
+.posted-on,
+.byline,
+.comments-link {
   color: #9a9a9a;
 }
 
@@ -1288,7 +1298,11 @@ section.xtreme-hero {
   border-radius: 3px;
 }
 
-.wp-block-group h2, .wp-block-group h3, .wp-block-group h4, .wp-block-group h5, .wp-block-group p {
+.wp-block-group h2,
+.wp-block-group h3,
+.wp-block-group h4,
+.wp-block-group h5,
+.wp-block-group p {
   padding: 14px;
 }
 
@@ -1335,7 +1349,9 @@ section.xtreme-hero {
   font-size: 28px;
 }
 
-.single.single-post article h2, .single.single-post article h3, .single.single-post article h4 {
+.single.single-post article h2,
+.single.single-post article h3,
+.single.single-post article h4 {
   font-weight: 500;
   text-align: left;
   color: #678db0;
@@ -1343,7 +1359,8 @@ section.xtreme-hero {
   font-size: 1.5rem;
 }
 
-.single.single-post article ul, .single.single-post article ol {
+.single.single-post article ul,
+.single.single-post article ol {
   color: #657786;
 }
 
@@ -1351,10 +1368,15 @@ section.xtreme-hero {
   .single.single-post .entry-header h1 {
     line-height: 1.5;
   }
-  .single.single-post .entry-content h2, .single.single-post .entry-content h3, .single.single-post .entry-content h4 {
+  .single.single-post .entry-content h2,
+  .single.single-post .entry-content h3,
+  .single.single-post .entry-content h4 {
     font-size: 20px !important;
   }
-  .single.single-post .entry-content p, .single.single-post .entry-content ol, .single.single-post .entry-content ul, .single.single-post .entry-content li {
+  .single.single-post .entry-content p,
+  .single.single-post .entry-content ol,
+  .single.single-post .entry-content ul,
+  .single.single-post .entry-content li {
     font-size: 16px !important;
     line-height: 2;
   }
@@ -2081,7 +2103,7 @@ object {
   /* 	background-color:#fafafa !important;	 */
   /* 	border-bottom:1px solid #e6e6e6 !important;
     border-top: 1px solid #e6e6e6 !important; */
-  padding: 10px 0 60px 0  !important;
+  padding: 10px 0 60px 0 !important;
 }
 
 .entry-content figure.google-auto-placed {
@@ -2142,7 +2164,8 @@ body:not(.theme-preset-active) footer#colophon {
   text-align: center;
 }
 
-.copyright a, footer#colophon a {
+.copyright a,
+footer#colophon a {
   color: inherit;
 }
 
