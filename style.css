@@ -2,7 +2,7 @@
 Theme Name: San Wordpress Bootstrap Like Medium
 Theme URI: https: //github.com/sanengineer/wordpress-bootstrap-like-medium
 Author: https://github.com/sanengineer
-Author URI: https://monochroomlab.com/
+Author URI: https://sanengineer.com.com/
 Description:  The best WordPress + Bootstrap theme based on the most powerful frameworks in the world. This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
 Version: Beta 0.0.5
 License: GNU General Public License v2 or later
@@ -350,7 +350,7 @@ header#masthead {
   border-bottom: 1px solid #e6e6e6;
 }
 
-.navbar-brand>a {
+.navbar-brand > a {
   color: rgba(0, 0, 0, 0.9);
   font-size: 1.1rem;
   outline: medium none;
@@ -359,8 +359,8 @@ header#masthead {
   font-weight: 700;
 }
 
-.navbar-brand>a:visited,
-.navbar-brand>a:hover {
+.navbar-brand > a:visited,
+.navbar-brand > a:hover {
   text-decoration: none;
 }
 
@@ -371,10 +371,12 @@ button.navbar-toggler span {
 
 .snupperenav {
   border-bottom: unset;
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+    0.5s;
   transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
   transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
-  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s, -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s,
+    -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
 .snupperenav.fixed-top {
@@ -390,7 +392,7 @@ button.navbar-toggler span {
 header.page-header {
   border: 1px solid #e6e6e6;
   margin-bottom: 20px;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 #page-sub-header {
@@ -430,7 +432,7 @@ a.page-scroller {
 
 @media screen and (min-width: 768px) {
   body:not(.theme-preset-active) #page-sub-header h1 {
-    font-size: 3.750rem;
+    font-size: 3.75rem;
   }
 
   body:not(.theme-preset-active) #page-sub-header {
@@ -495,8 +497,8 @@ a.page-scroller {
 }
 
 .about .nav-about .underlist-link .list-link:not(:last-child):after {
-  content: '\00B7';
-  margin: 0 .25em;
+  content: "\00B7";
+  margin: 0 0.25em;
 }
 
 .about .copyright {
@@ -523,19 +525,23 @@ a.page-scroller {
   padding-right: 0;
 }
 
-body:not(.theme-preset-active) #masthead .navbar-nav>li>a {
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
   color: #000000;
   padding: 0.5rem;
   font-weight: 500;
   font-size: 0.875rem;
 }
 
-body:not(.theme-preset-active) #masthead .navbar-nav>li>a:hover {
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover {
   text-decoration: none;
   color: #0051ff;
 }
 
-body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
+body:not(.theme-preset-active)
+  #masthead
+  .navbar-nav
+  > li.current_page_item
+  > a {
   color: #b80000 !important;
   font-weight: 900;
   /*background: #f9f9f9;*/
@@ -555,7 +561,9 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
   position: relative;
 }
 
-.dropdown.menu-item-has-children .dropdown.menu-item-has-children>.dropdown-menu {
+.dropdown.menu-item-has-children
+  .dropdown.menu-item-has-children
+  > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px;
@@ -563,11 +571,13 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
   border-radius: 0 6px 6px 6px;
 }
 
-.dropdown.menu-item-has-children .dropdown.menu-item-has-children:hover>.dropdown-menu {
+.dropdown.menu-item-has-children
+  .dropdown.menu-item-has-children:hover
+  > .dropdown-menu {
   display: block;
 }
 
-.dropdown.menu-item-has-children .dropdown.menu-item-has-children>a:after {
+.dropdown.menu-item-has-children .dropdown.menu-item-has-children > a:after {
   display: block;
   content: " ";
   float: right;
@@ -581,7 +591,9 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
   margin-right: -10px;
 }
 
-.dropdown.menu-item-has-children .dropdown.menu-item-has-children:hover>a:after {
+.dropdown.menu-item-has-children
+  .dropdown.menu-item-has-children:hover
+  > a:after {
   border-left-color: #fff;
 }
 
@@ -589,7 +601,9 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
   float: none;
 }
 
-.dropdown.menu-item-has-children .dropdown.menu-item-has-children.pull-left>.dropdown-menu {
+.dropdown.menu-item-has-children
+  .dropdown.menu-item-has-children.pull-left
+  > .dropdown-menu {
   left: -100%;
   margin-left: 10px;
   border-radius: 6px 0 6px 6px;
@@ -608,12 +622,12 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
 }
 
 .dropdown-menu {
-  min-width: 12.500rem;
+  min-width: 12.5rem;
 }
 
 .dropdown .open .dropdown-menu {
   display: block;
-  left: 12.250em;
+  left: 12.25em;
   top: 0;
 }
 
@@ -634,7 +648,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
 }
 
 @media screen and (min-width: 769px) {
-  .dropdown-menu li>.dropdown-menu {
+  .dropdown-menu li > .dropdown-menu {
     right: -9.875rem;
     top: 1.375rem;
   }
@@ -643,7 +657,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
 @media screen and (max-width: 991px) {
   .navbar-nav .dropdown-menu {
     border: medium none;
-    margin-left: 1.250rem;
+    margin-left: 1.25rem;
     padding: 0;
   }
 
@@ -651,7 +665,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
     padding: 0;
   }
 
-  #masthead .navbar-nav>li>a {
+  #masthead .navbar-nav > li > a {
     padding-bottom: 0.625rem;
     padding-top: 0.313rem;
   }
@@ -713,7 +727,13 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
   font-weight: 500;
   text-decoration: none;
   background-color: #28a745;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(70%, #28a745));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#34d058),
+    color-stop(70%, #28a745)
+  );
   background-image: linear-gradient(-180deg, #34d058, #28a745 70%);
 }
 
@@ -733,21 +753,39 @@ body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
   font-weight: 500;
   text-decoration: none;
   background-color: #28a745;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(70%, #28a745));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#34d058),
+    color-stop(70%, #28a745)
+  );
   background-image: linear-gradient(-180deg, #34d058, #28a745 70%);
 }
 
 .nav-next-search-page a:hover {
   color: white;
   background-color: #33cf57;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(90%, #2db84d));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#34d058),
+    color-stop(90%, #2db84d)
+  );
   background-image: linear-gradient(-180deg, #34d058, #2db84d 90%);
 }
 
 .nav-previous-search-page a:hover {
   color: white;
   background-color: #33cf57;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(90%, #2db84d));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#34d058),
+    color-stop(90%, #2db84d)
+  );
   background-image: linear-gradient(-180deg, #34d058, #2db84d 90%);
 }
 
@@ -947,8 +985,8 @@ a img.aligncenter {
   display: none;
 }
 
-.nav>li>a:focus,
-.nav>li>a:hover {
+.nav > li > a:focus,
+.nav > li > a:hover {
   background-color: #eee;
   text-decoration: none;
 }
@@ -1026,7 +1064,7 @@ section.xtreme-hero {
 }
 
 .sticky .entry-title::before {
-  content: '\f08d';
+  content: "\f08d";
   font-family: "Font Awesome\ 5 Free";
   font-size: 1.563rem;
   left: -2.5rem;
@@ -1139,7 +1177,7 @@ section.xtreme-hero {
   color: #9a9a9a;
 }
 
-.entry-title>a {
+.entry-title > a {
   color: inherit;
 }
 
@@ -1195,7 +1233,7 @@ section.xtreme-hero {
   ## Alignment For Single Post
   ------------------------------------------------------------------*/
 .single.single-post article {
-  letter-spacing: .25px !important;
+  letter-spacing: 0.25px !important;
 }
 
 .single.single-post article p {
@@ -1480,7 +1518,7 @@ object {
   --------------------------------------------------------------*/
 /* Plugin - Recent Posts Widget With Thumbnail */
 .sn-widget-post-thumbnail {
-  background-color: #CCEDDC;
+  background-color: #cceddc;
 }
 
 .swpt-post-title {
@@ -1534,7 +1572,7 @@ object {
 }
 
 .swpt-widget ul {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .swpt-post-excerpt {
@@ -1551,7 +1589,7 @@ object {
   width: 8.313rem !important;
 }
 
-.variations_form .variations .value>select {
+.variations_form .variations .value > select {
   margin-bottom: 0.625rem;
 }
 
@@ -1742,7 +1780,7 @@ footer#colophon a {
     animation: pulse 1s ease infinite;
   }*/
 @media screen and (max-width: 767px) {
-  #masthead .navbar-nav>li>a {
+  #masthead .navbar-nav > li > a {
     padding-bottom: 0.938rem;
     padding-top: 0.938rem;
   }
@@ -1835,7 +1873,13 @@ footer#colophon a {
     bottom: 0;
     height: 100%;
     width: 100%;
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, white), color-stop(80%, rgba(255, 255, 255, 0)));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(20%, white),
+      color-stop(80%, rgba(255, 255, 255, 0))
+    );
     background: linear-gradient(to top, white 20%, rgba(255, 255, 255, 0) 80%);
     left: 0;
   }

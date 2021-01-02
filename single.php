@@ -28,7 +28,7 @@ get_header();
 					advertisement
 				</div>
                     <div class="single-ads-script">
-						<div class="example-ads" style="height:300px;background-size: cover;background-repeat: no-repeat;background-image:url('https://monochroomlab.com/wp-content/uploads/2020/04/ads-dummy-rectangle.jpg')"></div> <!-- delete this line after fiil adsense code -->
+						<div class="example-ads" style="height:300px;background-size: cover;background-repeat: no-repeat;background-image:url('https://sanengineer.com.com/wp-content/uploads/2020/04/ads-dummy-rectangle.jpg')"></div> <!-- delete this line after fiil adsense code -->
                     	<!-- <?php if($adsense == 1){
                     	echo "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>
                             <ins class=\"adsbygoogle\"
