@@ -80,7 +80,7 @@ add_action( 'after_setup_theme', 'san_wp_bootstrap_setup' );
  * Add Welcome message to board
  */
 function san_wp_bootstrap_reminder(){
-        $theme_page_url = 'https://sanengineer.com.com';
+        $theme_page_url = 'https://sanengineer.com';
 
             if(!get_option( 'triggered_welcomet')){
                 $message = sprintf(__( 'Welcome to San WP Bootstrap Theme! Before diving in to your new theme, please visit the <a style="color: #fff; font-weight: bold;" href="%1$s" target="_blank">theme\'s</a> page for access to dozens of tips and in-depth tutorials.', 'san-wp-bootstrap' ),
