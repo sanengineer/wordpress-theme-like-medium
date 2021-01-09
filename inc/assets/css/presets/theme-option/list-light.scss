@@ -1,6 +1,6 @@
 /*
 Theme Name: San WP Bootstrap
-Theme URI: https://github.com/sanengineer/wordpress-bootstrap-like-medium
+Theme URI: https://github.com/sanengineer/wordpress-theme-like-medium
 Author: San WP Bootstrap
 Author URI: https://sanengineer.com/
 Description:  The best WordPress + Bootstrap theme based on the most powerful frameworks in the world. This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
@@ -313,7 +313,8 @@ img {
 }
 
 figure {
-  margin: 1em 0;
+  margin: auto;
+  /*margin: 1em 0;*/
   /* Extra wide images within figure tags don't overflow the content area. */
 }
 

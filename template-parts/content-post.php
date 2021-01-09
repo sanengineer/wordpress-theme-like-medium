@@ -11,41 +11,43 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php
+    <?php
     $enable_vc = get_post_meta(get_the_ID(), '_wpb_vc_js_status', true);
     if(!$enable_vc ) {
 	?>
-	
+
     <header class="entry-header">
-		<div class="post-thumbnail">
-			<?php the_post_thumbnail(); ?>
-		</div>
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
-	<?php } 
+        <div class="post-thumbnail">
+            <?php the_post_thumbnail(); ?>
+        </div>
+        <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+    </header><!-- .entry-header -->
+    <?php } 
 	
 	?>
 
-	<div class="category-cstm"><?php san_category_custom(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?></div>
+    <div class="category-cstm">
+        <?php san_category_customnolink(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
+    </div>
 
-	<?php san_share_buttons();?>
+    <?php san_share_buttons();?>
 
-	<div class="entry-content">
-	
-		<?php
+    <div class="entry-content">
+
+        <?php
 			the_content();?>
-		<?php
+        <?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'san-wp-bootstrap' ),
 				'after'  => '</div>',
 			) );
 		?>
 
-	</div><!-- .entry-content -->
+    </div><!-- .entry-content -->
 
-	<?php if ( get_edit_post_link() && !$enable_vc ) : ?>
-		<footer class="entry-footer">
-			<?php
+    <?php if ( get_edit_post_link() && !$enable_vc ) : ?>
+    <footer class="entry-footer">
+        <?php
 				edit_post_link(
 					sprintf(
 						/* translators: %s: Name of current post */
@@ -56,6 +58,6 @@
 					'</span>'
 				);
 			?>
-		</footer><!-- .entry-footer -->
-	<?php endif; ?>
+    </footer><!-- .entry-footer -->
+    <?php endif; ?>
 </article><!-- #post-## -->

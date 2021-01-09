@@ -1,6 +1,6 @@
 /*
 Theme Name: San WP Bootstrap
-Theme URI: https://github.com/sanengineer/wordpress-bootstrap-like-medium
+Theme URI: https://github.com/sanengineer/wordpress-theme-like-medium
 Author: San WP Bootstrap
 Author URI: https://sanengineer.com/
 Description:  The best WordPress + Bootstrap theme based on the most powerful frameworks in the world. This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
@@ -305,7 +305,7 @@ img {
 }
 
 figure {
-  margin: 1em 0;
+  margin: auto;
   /* Extra wide images within figure tags don't overflow the content area. */
 }
 
@@ -379,12 +379,10 @@ button.navbar-toggler span {
 
 .snupperenav {
   border-bottom: unset;
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1)
-    0.5s;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
   transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
   transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
-  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s,
-    -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s, -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
 .snupperenav.fixed-top {
@@ -447,16 +445,7 @@ a.page-scroller {
     font-size: 1.25rem;
   }
   /*-- style for without lg 8 --*/
-  .sn-wo8.entry-content p,
-  .sn-wo8.entry-content ol,
-  .sn-wo8.entry-content ul,
-  .sn-wo8.entry-content blockquote,
-  .sn-wo8.entry-content h1,
-  .sn-wo8.entry-content h2,
-  .sn-wo8.entry-content h3,
-  .sn-wo8.entry-content h4,
-  .sn-wo8.entry-content h5,
-  .sn-wo8.entry-content h6 {
+  .sn-wo8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
@@ -585,10 +574,10 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover {
 }
 
 body:not(.theme-preset-active)
-  #masthead
-  .navbar-nav
-  > li.current_page_item
-  > a {
+#masthead
+.navbar-nav
+> li.current_page_item
+> a {
   color: #b80000 !important;
   font-weight: 900;
   /*background: #f9f9f9;*/
@@ -609,8 +598,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children
-  > .dropdown-menu {
+.dropdown.menu-item-has-children
+> .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px;
@@ -619,8 +608,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children:hover
-  > .dropdown-menu {
+.dropdown.menu-item-has-children:hover
+> .dropdown-menu {
   display: block;
 }
 
@@ -639,8 +628,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children:hover
-  > a:after {
+.dropdown.menu-item-has-children:hover
+> a:after {
   border-left-color: #fff;
 }
 
@@ -649,8 +638,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children.pull-left
-  > .dropdown-menu {
+.dropdown.menu-item-has-children.pull-left
+> .dropdown-menu {
   left: -100%;
   margin-left: 10px;
   border-radius: 6px 0 6px 6px;
@@ -770,13 +759,7 @@ body:not(.theme-preset-active)
   font-weight: 500;
   text-decoration: none;
   background-color: #28a745;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(70%, #28a745)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(70%, #28a745));
   background-image: linear-gradient(-180deg, #34d058, #28a745 70%);
 }
 
@@ -796,39 +779,21 @@ body:not(.theme-preset-active)
   font-weight: 500;
   text-decoration: none;
   background-color: #28a745;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(70%, #28a745)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(70%, #28a745));
   background-image: linear-gradient(-180deg, #34d058, #28a745 70%);
 }
 
 .nav-next-search-page a:hover {
   color: white;
   background-color: #33cf57;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(90%, #2db84d)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(90%, #2db84d));
   background-image: linear-gradient(-180deg, #34d058, #2db84d 90%);
 }
 
 .nav-previous-search-page a:hover {
   color: white;
   background-color: #33cf57;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(90%, #2db84d)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(90%, #2db84d));
   background-image: linear-gradient(-180deg, #34d058, #2db84d 90%);
 }
 
@@ -1189,10 +1154,8 @@ form.search-form {
   background: 50%;
   background-size: cover;
   border-radius: 5px;
-  -webkit-box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
-    1px 3px 8px rgba(39, 44, 49, 0.03);
-  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
-    1px 3px 8px rgba(39, 44, 49, 0.03);
+  -webkit-box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   display: -webkit-box;
@@ -1301,6 +1264,31 @@ section.xtreme-hero {
 
 .single .site-main article .category-cstm a {
   text-decoration: none;
+}
+
+.date-post-reading-time {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.follow-rss {
+  border: 1px solid #258100;
+  border-radius: 3px;
+  padding: 5px 8px;
+  font-size: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #258100;
+}
+
+.follow-rss:hover {
+  text-decoration: none;
+  color: #258100;
+}
+
+.auth-wrapper {
+  margin-bottom: 4px;
 }
 
 #content.site-content {
@@ -1545,7 +1533,7 @@ section.xtreme-hero {
 
 .single.single-post article h1 {
   text-align: left;
-  font-size: 28px;
+  font-size: 38px;
 }
 
 .single.single-post article h2,
@@ -2085,7 +2073,7 @@ object {
 /*--------------------------------------------------------------
   # Plugin Compatibility
   --------------------------------------------------------------*/
-/* Plugin - Recent Posts Widget With Thumbnail */
+/* ## Recent Posts Widget With Thumbnail */
 .sn-widget-post-thumbnail {
   background-color: #164876c9;
 }
@@ -2149,6 +2137,20 @@ object {
   padding-top: 4px;
   color: #144069;
   font-weight: 300;
+}
+
+/* ## Related Post */
+.relpost-block-single {
+  margin: 20px !important;
+}
+
+.relpost-block-single-image {
+  height: 200px !important;
+}
+
+.relpost-block-single-text {
+  text-align: left !important;
+  line-height: 1.5 !important;
 }
 
 /*--------------------------------------------------------------
@@ -2469,13 +2471,7 @@ footer#colophon a {
     bottom: 0;
     height: 100%;
     width: 100%;
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      color-stop(20%, #0d2439),
-      color-stop(80%, rgba(13, 36, 57, 0))
-    );
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #0d2439), color-stop(80%, rgba(13, 36, 57, 0)));
     background: linear-gradient(to top, #0d2439 20%, rgba(13, 36, 57, 0) 80%);
     left: 0;
   }
@@ -2501,7 +2497,7 @@ footer#colophon a {
 /*----------------------------------------------------------------
   # Plugin
 -----------------------------------------------------------------*/
-/* ##Display Post in Post */
+/* ## Display Post in Post */
 .display-posts-listing {
   padding: 0;
   text-align: center;
@@ -2539,6 +2535,17 @@ footer#colophon a {
 
 .display-posts-listing .dpos-inpos .excerpt {
   color: #678db0b0;
+}
+
+/* ## Related Post */
+.sn-related-post {
+  margin-top: 10rem;
+}
+
+.sn-related-post h3 {
+  padding-bottom: 20px;
+  padding-left: 23px;
+  border-bottom: 1px solid #bfbfbf;
 }
 
 /*----------------------------------------------------------------
@@ -2587,6 +2594,7 @@ header#masterhead {
 
 .auth-name {
   color: #000000;
+  font-size: 14px;
 }
 
 .single .site-main .category-cstm {

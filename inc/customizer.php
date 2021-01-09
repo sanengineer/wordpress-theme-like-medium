@@ -44,7 +44,9 @@ function san_wp_bootstrap_customize_register( $wp_customize ) {
             'card-light' => 'Card Light',
             'card-dim' => 'Card Dim',
             'card-flex' => 'Card Flex',
+            'card-flex-2' => 'Card Flex 2',
             'card-flex-dim' => 'Card Flex Dim',
+            'card-flex-light' => 'Card Flex Light',
             'list-dim' => 'List Dim',
             'list-light' => 'List Light'
         )
@@ -236,10 +238,13 @@ add_action( 'wp_head', 'san_wp_bootstrap_customizer_css');
 function san_wp_bootstrap_customizer_css()
 {
     ?>
-    <style type="text/css">
-        #page-sub-header { background: <?php echo get_theme_mod('header_bg_color_setting', '#fff'); ?>; }
-    </style>
-    <?php
+<style type="text/css">
+#page-sub-header {
+    background: <?php echo get_theme_mod('header_bg_color_setting', '#fff');
+    ?>;
+}
+</style>
+<?php
 }
 
 

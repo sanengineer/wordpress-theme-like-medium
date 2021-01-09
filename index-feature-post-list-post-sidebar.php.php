@@ -62,7 +62,7 @@ get_header(); ?>
 								<?php the_excerpt(); ?>
 							</p>
 							<div class="category-cstm">
-								<?php san_category_custom(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
+								<?php san_category_customnolink(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
 							</div>
 						</div>	
 					</article>
@@ -122,7 +122,7 @@ get_header(); ?>
 							</h2>
 							<p><?php echo substr(get_the_excerpt(),0,25); echo "...";?></p>
 							<div class="category-cstm">
-								<?php san_category_custom(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
+								<?php san_category_customnolink(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
 							</div>
 						</div>	
 					</article>
@@ -184,7 +184,7 @@ get_header(); ?>
 								<?php the_excerpt(); ?>
 							</p>
 							<div class="category-cstm">
-								<?php san_category_custom(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
+								<?php san_category_customnolink(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
 							</div>
 						</div>	
 						

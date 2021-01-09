@@ -1,6 +1,6 @@
 /*
 Theme Name: San WP Bootstrap
-Theme URI: https://github.com/sanengineer/wordpress-bootstrap-like-medium
+Theme URI: https://github.com/sanengineer/wordpress-theme-like-medium
 Author: San WP Bootstrap
 Author URI: https://sanengineer.com/
 Description:  The best WordPress + Bootstrap theme based on the most powerful frameworks in the world. This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
@@ -46,7 +46,6 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 --------------------------------------------------------------*/
 body {
   -webkit-font-smoothing: auto;
-  background: red;
 }
 
 article,
@@ -309,7 +308,7 @@ img {
 }
 
 figure {
-  margin: 1em 0;
+  margin: auto;
   /* Extra wide images within figure tags don't overflow the content area. */
 }
 
@@ -381,12 +380,10 @@ button.navbar-toggler span {
 
 .snupperenav {
   border-bottom: unset;
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1)
-    0.5s;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
   transition: -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
   transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
-  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s,
-    -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s, -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
 .snupperenav.fixed-top {
@@ -547,10 +544,10 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover {
 }
 
 body:not(.theme-preset-active)
-  #masthead
-  .navbar-nav
-  > li.current_page_item
-  > a {
+#masthead
+.navbar-nav
+> li.current_page_item
+> a {
   color: #b80000 !important;
   font-weight: 900;
   /*background: #f9f9f9;*/
@@ -571,8 +568,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children
-  > .dropdown-menu {
+.dropdown.menu-item-has-children
+> .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px;
@@ -581,8 +578,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children:hover
-  > .dropdown-menu {
+.dropdown.menu-item-has-children:hover
+> .dropdown-menu {
   display: block;
 }
 
@@ -601,8 +598,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children:hover
-  > a:after {
+.dropdown.menu-item-has-children:hover
+> a:after {
   border-left-color: #fff;
 }
 
@@ -611,8 +608,8 @@ body:not(.theme-preset-active)
 }
 
 .dropdown.menu-item-has-children
-  .dropdown.menu-item-has-children.pull-left
-  > .dropdown-menu {
+.dropdown.menu-item-has-children.pull-left
+> .dropdown-menu {
   left: -100%;
   margin-left: 10px;
   border-radius: 6px 0 6px 6px;
@@ -732,13 +729,7 @@ body:not(.theme-preset-active)
   font-weight: 500;
   text-decoration: none;
   background-color: #28a745;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(70%, #28a745)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(70%, #28a745));
   background-image: linear-gradient(-180deg, #34d058, #28a745 70%);
 }
 
@@ -758,39 +749,21 @@ body:not(.theme-preset-active)
   font-weight: 500;
   text-decoration: none;
   background-color: #28a745;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(70%, #28a745)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(70%, #28a745));
   background-image: linear-gradient(-180deg, #34d058, #28a745 70%);
 }
 
 .nav-next-search-page a:hover {
   color: white;
   background-color: #33cf57;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(90%, #2db84d)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(90%, #2db84d));
   background-image: linear-gradient(-180deg, #34d058, #2db84d 90%);
 }
 
 .nav-previous-search-page a:hover {
   color: white;
   background-color: #33cf57;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#34d058),
-    color-stop(90%, #2db84d)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34d058), color-stop(90%, #2db84d));
   background-image: linear-gradient(-180deg, #34d058, #2db84d 90%);
 }
 

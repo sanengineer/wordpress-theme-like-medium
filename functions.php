@@ -336,25 +336,25 @@ if ( ! function_exists( 'san_pagination' ) ) {
 
 		?>
 
-		<nav aria-label="<?php echo $args['screen_reader_text']; ?>">
+<nav aria-label="<?php echo $args['screen_reader_text']; ?>">
 
-			<ul class="pagination">
+    <ul class="pagination">
 
-				<?php
+        <?php
 				foreach ( $links as $key => $link ) {
 					?>
-					<li class="page-item <?php echo strpos( $link, 'current' ) ? 'active' : ''; ?>">
-						<?php echo str_replace( 'page-numbers', 'page-link', $link ); ?>
-					</li>
-					<?php
+        <li class="page-item <?php echo strpos( $link, 'current' ) ? 'active' : ''; ?>">
+            <?php echo str_replace( 'page-numbers', 'page-link', $link ); ?>
+        </li>
+        <?php
 				}
 				?>
 
-			</ul>
+    </ul>
 
-		</nav>
+</nav>
 
-		<?php
+<?php
 	}
 }
 
@@ -577,4 +577,21 @@ function snsupersticky() {
   
   add_action('wp_enqueue_scripts','snsupersticky');
 
+/**
+ * 
+ * Add Post Date
+ * 
+ */
+ function sn_posted_on(){
+	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+        $time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
+	}
 
+	$time_string = sprintf( $time_string,
+		esc_attr( get_the_date( 'c' ) ),
+		esc_html( get_the_date() )
+	);
+
+	echo '<span class="date-post-wrapper">'.$time_string. '</span>';
+ }

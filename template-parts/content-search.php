@@ -21,7 +21,7 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-	<div class="category-cstm"><?php san_category_custom(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?></div>	
+	<div class="category-cstm"><?php san_category_customnolink(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?></div>	
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->

@@ -11,61 +11,61 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php
+    <?php
     $enable_vc = get_post_meta(get_the_ID(), '_wpb_vc_js_status', true);
     if(!$enable_vc ) {
 	?>
-	
+
     <header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
-	<?php } 
+        <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+    </header><!-- .entry-header -->
+    <?php } 
 	
 	?>
 
-	<div class="inf-cont-post">
+    <div class="inf-cont-post">
 
-		<div class="ph-nm-cat-rd">
+        <div class="ph-nm-cat-rd">
 
-			<div class="avt-img">
-				<div class="outer-circle"></div>
-					<?php	echo do_shortcode('[avatar]'); ?>
-					<!-- <img class="onweb-img" src="/blog-wp/wp-content/uploads/2020/04/icon-profil-service-web@4x.png" alt="author-img-anonymous"> -->
-					<?php /* echo get_avatar( get_the_author_meta( 'ID' ), 48 ); */ ?>
-			</div>
+            <div class="avt-img">
+                <!-- <div class="outer-circle"></div> -->
+                <?php	echo do_shortcode('[avatar]'); ?>
+                <!-- <img class="onweb-img" src="/blog-wp/wp-content/uploads/2020/04/icon-profil-service-web@4x.png" alt="author-img-anonymous"> -->
+                <?php /* echo get_avatar( get_the_author_meta( 'ID' ), 48 ); */ ?>
+            </div>
 
-			<div class="nm-cat-rdtm">
-				<div class="auth-name">
-					<span><?php the_author(); ?></span>
-				</div>
+            <div class="nm-cat-rdtm">
+                <div class="auth-name">
+                    <span><?php the_author(); ?></span>
+                </div>
 
-				<div class="category-cstm">
-					<?php san_category_custom(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
-				</div>
-			</div>
-			
-		</div>
-		
-		<?php san_share_buttons();?>
+                <div class="category-cstm">
+                    <?php san_category_customnolink(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');?>
+                </div>
+            </div>
 
-	</div>
+        </div>
 
-	<div class="entry-content">
-	
-		<?php
+        <?php san_share_buttons();?>
+
+    </div>
+
+    <div class="entry-content">
+
+        <?php
 			the_content();?>
-		<?php
+        <?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'san-wp-bootstrap' ),
 				'after'  => '</div>',
 			) );
 		?>
 
-	</div><!-- .entry-content -->
+    </div><!-- .entry-content -->
 
-	<?php if ( get_edit_post_link() && !$enable_vc ) : ?>
-		<footer class="entry-footer">
-			<?php
+    <?php if ( get_edit_post_link() && !$enable_vc ) : ?>
+    <footer class="entry-footer">
+        <?php
 				edit_post_link(
 					sprintf(
 						/* translators: %s: Name of current post */
@@ -76,6 +76,6 @@
 					'</span>'
 				);
 			?>
-		</footer><!-- .entry-footer -->
-	<?php endif; ?>
+    </footer><!-- .entry-footer -->
+    <?php endif; ?>
 </article><!-- #post-## -->

@@ -1,6 +1,6 @@
 /*
 Theme Name: San WP Bootstrap
-Theme URI: https://github.com/sanengineer/wordpress-bootstrap-like-medium
+Theme URI: https://github.com/sanengineer/wordpress-theme-like-medium
 Author: San WP Bootstrap
 Author URI: https://sanengineer.com/
 Description:  The best WordPress + Bootstrap theme based on the most powerful frameworks in the world. This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
@@ -305,7 +305,7 @@ img {
 }
 
 figure {
-  margin: 1em 0;
+  margin: auto;
   /* Extra wide images within figure tags don't overflow the content area. */
 }
 
@@ -447,16 +447,7 @@ a.page-scroller {
     font-size: 1.25rem;
   }
   /*-- style for without lg 8 --*/
-  .sn-wo8.entry-content p,
-  .sn-wo8.entry-content ol,
-  .sn-wo8.entry-content ul,
-  .sn-wo8.entry-content blockquote,
-  .sn-wo8.entry-content h1,
-  .sn-wo8.entry-content h2,
-  .sn-wo8.entry-content h3,
-  .sn-wo8.entry-content h4,
-  .sn-wo8.entry-content h5,
-  .sn-wo8.entry-content h6 {
+  .sn-wo8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
@@ -464,6 +455,24 @@ a.page-scroller {
     margin-left: auto;
     margin-right: auto;
   }
+
+  // .sn-wo8.entry-content p,
+  // .sn-wo8.entry-content ol,
+  // .sn-wo8.entry-content ul,
+  // .sn-wo8.entry-content blockquote,
+  // .sn-wo8.entry-content h1,
+  // .sn-wo8.entry-content h2,
+  // .sn-wo8.entry-content h3,
+  // .sn-wo8.entry-content h4,
+  // .sn-wo8.entry-content h5,
+  // .sn-wo8.entry-content h6 {
+  //   -webkit-box-flex: 0;
+  //   -ms-flex: 0 0 66.666667%;
+  //   flex: 0 0 66.666667%;
+  //   max-width: 66.666667%;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
   .sn-wo8.entry-header {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.666667%;
@@ -1303,6 +1312,31 @@ section.xtreme-hero {
   text-decoration: none;
 }
 
+.date-post-reading-time {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.follow-rss {
+  border: 1px solid #258100;
+  border-radius: 3px;
+  padding: 5px 8px;
+  font-size: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #258100;
+
+  &:hover {
+    text-decoration: none;
+    color: #258100;
+  }
+}
+
+.auth-wrapper {
+  margin-bottom: 4px;
+}
+
 #content.site-content {
   padding-bottom: 3.75rem;
   padding-top: 1.5rem;
@@ -1545,7 +1579,7 @@ section.xtreme-hero {
 
 .single.single-post article h1 {
   text-align: left;
-  font-size: 28px;
+  font-size: 38px;
 }
 
 .single.single-post article h2,
@@ -2085,7 +2119,7 @@ object {
 /*--------------------------------------------------------------
   # Plugin Compatibility
   --------------------------------------------------------------*/
-/* Plugin - Recent Posts Widget With Thumbnail */
+/* ## Recent Posts Widget With Thumbnail */
 .sn-widget-post-thumbnail {
   background-color: #164876c9;
 }
@@ -2149,6 +2183,20 @@ object {
   padding-top: 4px;
   color: #144069;
   font-weight: 300;
+}
+
+/* ## Related Post */
+.relpost-block-single {
+  margin: 20px !important;
+}
+
+.relpost-block-single-image {
+  height: 200px !important;
+}
+
+.relpost-block-single-text {
+  text-align: left !important;
+  line-height: 1.5 !important;
 }
 
 /*--------------------------------------------------------------
@@ -2501,7 +2549,7 @@ footer#colophon a {
 /*----------------------------------------------------------------
   # Plugin
 -----------------------------------------------------------------*/
-/* ##Display Post in Post */
+/* ## Display Post in Post */
 .display-posts-listing {
   padding: 0;
   text-align: center;
@@ -2539,6 +2587,17 @@ footer#colophon a {
 
 .display-posts-listing .dpos-inpos .excerpt {
   color: #678db0b0;
+}
+
+/* ## Related Post */
+.sn-related-post {
+  margin-top: 10rem;
+
+  h3 {
+    padding-bottom: 20px;
+    padding-left: 23px;
+    border-bottom: 1px solid #bfbfbf;
+  }
 }
 
 /*----------------------------------------------------------------
@@ -2587,6 +2646,7 @@ header#masterhead {
 
 .auth-name {
   color: #000000;
+  font-size: 14px;
 }
 
 .single .site-main .category-cstm {

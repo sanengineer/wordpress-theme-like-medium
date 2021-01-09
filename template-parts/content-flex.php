@@ -56,7 +56,7 @@
 					<span><a href="#" rel="nofollow norefferer"><?php the_author(); ?></a></span>
 					<div class="category-cstm">
 						<?php 
-						san_category_custom(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');
+						san_category_customnolink(); echo do_shortcode('[rt_reading_time postfix="min read" postfix_singular="min read"]');
 						?>
 					</div>
 				</div>
